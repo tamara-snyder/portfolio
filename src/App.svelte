@@ -1,11 +1,19 @@
 <script>
+	import Header from './Header.svelte'
+	import Home from './Home.svelte'
+	import About from './About.svelte'
+	import Contact from './Contact.svelte'
 	export let name;
 </script>
 
+<Header/>
 <main>
+	<Home/>
+	<About/>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
+<Contact/>
 
 <style>
 	main {
