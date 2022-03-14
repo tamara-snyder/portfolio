@@ -44,11 +44,4 @@
   .desktop {
     width: 40%;
   }
-
-  @media only screen and (min-width: 1200px) {
-    p {
-      width: 40%;
-      margin: auto;
-    }
-  }
 </style>

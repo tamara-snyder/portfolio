@@ -46,33 +46,4 @@
   .mobile {
     text-align: center;
   }
-
-  .mobile h1 {
-    font-size: 2rem;
-  }
-
-  .mobile h2 {
-    font-size: 1.5rem;
-  }
-
-  
-
-  h1 {
-    font-size: 7rem;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  h2 {
-    font-size: 4rem;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .mobile .media-icon {
-    width: 64px;
-    height: auto;
-    padding: 0 20px;
-    transition: 0.2s ease-in-out;
-  }
 </style>

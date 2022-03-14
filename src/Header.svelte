@@ -1,8 +1,8 @@
 <nav class="nav">
   <ul class="nav-list">
-    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
 </nav>
 
@@ -11,7 +11,8 @@
     position: sticky;
     top: 0;
     min-height: 50px;
-    border-bottom: solid 2px #eee;
+    border-bottom: solid 2px #ddd;
+    background-color: #f2f3f4;
   }
 
   .nav-list {
@@ -27,22 +28,14 @@
   .nav-link {
     font-size: 1.3rem;
     color: #303030;
+    transition: 0.2s;
   }
 
-  a:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 3px;
-        transform: scaleX(0);
-        background-color: pink;
-
-        transition: transform 0.3s;
-
+  a:hover {
+    color: #bbb;
   }
-  a:hover:after {
-    transform: scaleX(1);    
+
+  a:hover {
+    transform: scaleX(1.1);    
   }
 </style>

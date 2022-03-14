@@ -11,19 +11,10 @@
 </p>
 
 <style>
-  div {
-    margin: 10vh;
-  }
-
   p {
   font-size: 1.5rem;
   width: 100%;
   margin: auto;
   line-height: 2.5rem;
-  }
-
-  .mobile {
-    width: 70%;
-    margin: auto;
   }
 </style>
