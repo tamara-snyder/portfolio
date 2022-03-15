@@ -1,7 +1,11 @@
-<div>
-  <h3>Mastermind</h3>
-  <img src="images/mastermind_screenshot.png" alt="Screenshot of my Mastermind app for iPhone">
-  <p>This is a simple app I made</p>
+<script>
+  export let project
+</script>
+
+<div class='project'>
+  <h3>{project.title}</h3>
+  <img src={project.imageSource} alt={project.imageAlt}>
+  <p>{project.description}</p>
 </div>
 
 <style>
