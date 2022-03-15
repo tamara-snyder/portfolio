@@ -11,12 +11,13 @@
 <style>
   div {
     padding: 30px;
-    margin: 0 auto;
+    margin: 0 auto 10vh auto;
     border-radius: 10px;
-    max-width: 290px;
     background-color: #f2f3f4;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s;
+    position: relative;
+    flex: 0 1 0;
   }
 
   div:hover {
@@ -29,12 +30,15 @@
 
   img {
     max-width: 290px;
-    height: auto;
     transition: 0.3s;
     border-radius: 15px;
   }
 
   img:hover {
     transform: scale(1.03);
+  }
+
+  p {
+
   }
 </style>
