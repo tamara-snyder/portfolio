@@ -31,6 +31,7 @@
   div {
     margin: auto;
     text-align: center;
+    margin-bottom: 30vh;
   }
 
   .mobile {

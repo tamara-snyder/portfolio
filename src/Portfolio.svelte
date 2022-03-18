@@ -9,7 +9,7 @@
       description: 'A color-based guessing game built using SwiftUI.'
     },
     {
-      title: 'Calculator',
+      title: 'iOS Calculator Clone',
       imageSource: 'images/calculator_screenshot.png',
       imageAlt: 'Screenshot of the iOS calculator replicated for the web',
       description: 'A web-based replica of the iOS calculator created using plain JavaScript, HTML, and CSS.'

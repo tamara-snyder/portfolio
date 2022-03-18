@@ -1,20 +1,30 @@
-<p class="about">
-  Hi there, I'm Tamara! I'm an iOS developer with a passion for learning new things and building apps that bring joy to my users.
-</p>
-<br>
-<p class="about">
-  Fun fact: I'm actually a classically-trained bassoonist — I've performed all over Europe and the US, but after taking a few computer science classes during my master's degree, I became hooked on programming. I dabbled in everything from C to Python to Ruby and JavaScript, but I finally landed on Swift and iOS when I realized how much I love designing for the mobile experience. And now here you are, browsing my development portfolio.
-</p>
-<br>
-<p class="about">
-  Currently, I'm volunteering as a part of the website team at Hack for LA, where I improve the frontend and help orientate new members. Don't hesitate to get in touch with me with your project ideas!
-</p>
+<div class="background">
+  <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
+  <p class="about">
+    Hi, I'm Tamara! I'm an iOS developer with a passion for learning new things and building apps that bring joy to my users. I also do full-stack web development and am currently volunteering as a developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
+  </p>
+</div>
 
 <style>
+  div {
+    width: 100%;
+  }
+
   p {
-  font-size: 1.5rem;
-  width: 100%;
-  margin: auto;
-  line-height: 2.5rem;
+    font-size: 1.5rem;
+    width: 90%;
+    margin: auto;
+    line-height: 2.5rem;
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #avatar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10vh auto 5vh auto;
   }
 </style>

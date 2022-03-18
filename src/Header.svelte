@@ -10,6 +10,8 @@
   .nav {
     position: sticky;
     top: 0;
+    width: 100%;
+    z-index: 50;
     min-height: 50px;
     border-bottom: solid 2px #ddd;
     background-color: #f2f3f4;

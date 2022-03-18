@@ -3,34 +3,48 @@
   let twitterIcon = 'images/twitter_icon.png'
   let githubIcon = 'images/github_icon.png'
 </script>
+<div class="background">
+  <div class="content">
+    <h1>Tamara Snyder</h1>
+    <h2>iOS Developer</h2>
 
-<h1>Tamara Snyder</h1>
-<h2>iOS Developer</h2>
-
-<img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
-
-<nav>
-  <a href="https://www.linkedin.com/in/tamara-snyder-a6a1391b7/" target="_blank">
-    <img class="media-icon" src={linkedinIcon} alt="LinkedIn profile"/>
-  </a>
-  <a href="https://github.com/tamara-snyder" target="_blank">
-    <img class="media-icon" src={githubIcon} alt="Github profile"/>
-  </a>
-  <a href="https://twitter.com/dev_tamara" target="_blank">
-    <img class="media-icon" src="{twitterIcon}" alt="Twitter profile"/>
-  </a>
-</nav>
+    <nav>
+      <a href="https://www.linkedin.com/in/tamara-snyder-a6a1391b7/" target="_blank">
+        <img class="media-icon" src={linkedinIcon} alt="LinkedIn profile"/>
+      </a>
+      <a href="https://github.com/tamara-snyder" target="_blank">
+        <img class="media-icon" src={githubIcon} alt="Github profile"/>
+      </a>
+      <a href="https://twitter.com/dev_tamara" target="_blank">
+        <img class="media-icon" src="{twitterIcon}" alt="Twitter profile"/>
+      </a>
+    </nav>
+  </div>
+</div>
 
 <style>
+    .background {
+    padding: 5vh 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 90vh;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+  }
+
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
   img {
     width: 150px;
     height: auto;
     border-radius: 50%;
-  }
-
-  #avatar {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   nav {
@@ -41,15 +55,19 @@
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 5vh auto;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   h2 {
     font-size: 3rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 5vh auto;
   }
 
   .media-icon {

@@ -42,8 +42,4 @@
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
-
-  .mobile {
-    text-align: center;
-  }
 </style>
