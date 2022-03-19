@@ -25,12 +25,6 @@
   }
 
   footer {
-    /* position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #2a46bf;
-    min-height: 50px; */
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -42,7 +36,7 @@
   }
 
   .links-container {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -53,9 +47,9 @@
     color: white;
   }
 
-  p {
+  /* p {
     position: absolute;
     right: 25px;
-  }
+  } */
   
 </style>

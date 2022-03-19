@@ -29,7 +29,7 @@
     width: 100%;
     height: 90vh;
     background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
-
+    color: black;
   }
 
   .content {
