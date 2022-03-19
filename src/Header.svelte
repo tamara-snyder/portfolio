@@ -14,7 +14,7 @@
     z-index: 50;
     min-height: 50px;
     border-bottom: solid 2px #ddd;
-    background-color: #f2f3f4;
+    background-color: rgba(242, 243, 244, 0.9);
   }
 
   .nav-list {

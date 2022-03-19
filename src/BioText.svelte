@@ -8,6 +8,9 @@
 <style>
   div {
     width: 100%;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   p {

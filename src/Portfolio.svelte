@@ -32,7 +32,8 @@
 
 <style>
   h1 {
-    margin: 10vh auto;
+    margin: 10vh auto 5vh auto;
+    font-size: 4rem;
   }
 
   div {

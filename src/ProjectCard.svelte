@@ -10,7 +10,7 @@
 
 <style>
   div {
-    padding: 30px;
+    padding: 10px 30px;
     margin: 0 auto 10vh auto;
     border-radius: 10px;
     background-color: #f2f3f4;

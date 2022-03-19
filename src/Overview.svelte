@@ -28,8 +28,7 @@
     margin: 0 auto;
     width: 100%;
     height: 90vh;
-    background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
 
   }
 
@@ -58,10 +57,10 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     font-size: 6rem;
     text-align: center;
     margin: 5vh auto;
-    background: -webkit-linear-gradient(#eee, #333);
+    /* background: -webkit-linear-gradient(#eee, #333);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
   }
 
   h2 {
