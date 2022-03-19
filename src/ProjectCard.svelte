@@ -19,8 +19,6 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s;
     position: relative;
-    /* display: flex;
-    flex-direction: column; */
     flex: 0 1 25%;
     max-height: 80vh;
   }
@@ -45,6 +43,6 @@
   }
 
   p {
-
+    padding: 25px;
   }
 </style>
