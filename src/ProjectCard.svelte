@@ -4,7 +4,9 @@
 
 <div class='project'>
   <h3>{project.title}</h3>
-  <img src={project.imageSource} alt={project.imageAlt}>
+  <a href={project.link}>
+    <img src={project.imageSource} alt={project.imageAlt}>
+  </a>
   <p>{project.description}</p>
 </div>
 
@@ -17,7 +19,10 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s;
     position: relative;
-    flex: 0 1 0;
+    /* display: flex;
+    flex-direction: column; */
+    flex: 0 1 25%;
+    max-height: 80vh;
   }
 
   div:hover {
@@ -30,6 +35,7 @@
 
   img {
     max-width: 290px;
+    max-height: 60%;
     transition: 0.3s;
     border-radius: 15px;
   }

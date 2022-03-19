@@ -6,7 +6,7 @@
 </div>
 
 <style>
-  div {
+  .background {
     width: 100%;
     height: 100vh;
     display: table-cell;
@@ -28,6 +28,6 @@
 
   #avatar {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 10vh auto 5vh auto;
+    margin: 0 auto 5vh auto;
   }
 </style>
