@@ -27,19 +27,6 @@
 	{/if}
 </MediaQuery>
 
-<!-- <nav>
-  <a href="https://www.linkedin.com/in/tamara-snyder-a6a1391b7/" target="_blank">
-    <img class="media-icon" src={linkedinIcon} alt="LinkedIn profile"/>
-  </a>
-  <a href="https://github.com/tamara-snyder" target="_blank">
-    <img class="media-icon" src={githubIcon} alt="Github profile"/>
-  </a>
-  <a href="https://twitter.com/dev_tamara" target="_blank">
-    <img class="media-icon" src="{twitterIcon}" alt="Twitter profile"/>
-  </a>
-</nav> -->
-
-
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
 </style>

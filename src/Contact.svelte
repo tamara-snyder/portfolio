@@ -46,10 +46,5 @@
     text-decoration: none;
     color: white;
   }
-
-  /* p {
-    position: absolute;
-    right: 25px;
-  } */
   
 </style>

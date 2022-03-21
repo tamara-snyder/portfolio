@@ -30,7 +30,9 @@
 <style>
   div {
     margin: auto;
-    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
   }
 
   .mobile {
@@ -42,6 +44,6 @@
   }
 
   .desktop {
-    width: 40%;
+    width: 50%;
   }
 </style>

@@ -57,10 +57,6 @@
     font-size: 6rem;
     text-align: center;
     margin: 5vh auto;
-    /* background: -webkit-linear-gradient(#eee, #333);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
   }
 
   h2 {

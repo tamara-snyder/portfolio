@@ -1,16 +1,16 @@
 <div class="background">
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
-    Hi, I'm Tamara! I'm an iOS developer with a passion for learning new things and building apps that bring joy to my users. I also do full-stack web development and am currently volunteering as a developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
+    Hi, I'm Tamara! I'm an iOS developer with a passion for learning new things and building apps that bring joy to my users.
+    I am also currently volunteering as a developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
   </p>
 </div>
 
 <style>
   .background {
-    width: 100%;
-    height: 100vh;
-    display: table-cell;
-    vertical-align: middle;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 15px;
   }
 
   p {
@@ -29,5 +29,15 @@
   #avatar {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0 auto 5vh auto;
+  }
+
+  a {
+    color: #222f3e;
+    text-decoration: underline;
+    transition: 0.1s;
+  }
+
+  a:hover {
+    color: #7e8ea0;
   }
 </style>

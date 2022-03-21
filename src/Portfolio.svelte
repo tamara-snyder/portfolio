@@ -28,7 +28,7 @@
       link: 'https://tamara-snyder.github.io/Tic-Tac-Toe-JS/',
       imageSource: 'images/tictactoe_screenshot.png',
       imageAlt: 'Screenshot of Tic-Tac-Toe with an unbeatable AI',
-      description: 'The classic game of Tic-Tac-Toe, but with the twist of an unbeatable AI implemented using the minimax algorithm. Created in plain JavaScript, HTML, and CSS.'
+      description: 'The classic game of Tic-Tac-Toe with the twist of an unbeatable AI. Created in plain JavaScript, HTML, and CSS.'
     }
   ]
 </script>
