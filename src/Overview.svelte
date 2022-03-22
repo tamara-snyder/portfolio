@@ -6,7 +6,7 @@
 <div class="background">
   <div class="content">
     <h1>Tamara Snyder</h1>
-    <h2>iOS Developer</h2>
+    <h2>Software Developer</h2>
 
     <nav>
       <a href="https://www.linkedin.com/in/tamara-snyder-a6a1391b7/" target="_blank">

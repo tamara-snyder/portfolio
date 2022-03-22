@@ -1,8 +1,8 @@
 <div class="background">
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
-    Hi, I'm Tamara! I'm an iOS developer with a passion for learning new things and building apps that bring joy to my users.
-    I am also currently volunteering as a developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
+    Hi, I'm Tamara! I'm a software developer with a passion for learning new things and building apps that bring joy to my users.
+    I am currently volunteering as a full-stack developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
   </p>
 </div>
 

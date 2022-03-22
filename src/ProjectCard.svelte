@@ -33,7 +33,7 @@
 
   img {
     max-width: 290px;
-    max-height: 60%;
+    height: 55%;
     transition: 0.3s;
     border-radius: 15px;
   }

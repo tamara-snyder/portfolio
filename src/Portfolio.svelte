@@ -29,6 +29,13 @@
       imageSource: 'images/tictactoe_screenshot.png',
       imageAlt: 'Screenshot of Tic-Tac-Toe with an unbeatable AI',
       description: 'The classic game of Tic-Tac-Toe with the twist of an unbeatable AI. Created in plain JavaScript, HTML, and CSS.'
+    },
+    {
+      title: 'Hangman',
+      link: 'https://github.com/tamara-snyder/hangman',
+      imageSource: 'images/hangman_screenshot.png',
+      imageAlt: 'Screenshot of my Hangman game for the command line',
+      description: 'Chooses a random word from the dictionary. You have 10 tries to guess it! Built in Ruby for the command line.'
     }
   ]
 </script>
