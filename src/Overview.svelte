@@ -79,16 +79,16 @@
         #A7489B 83.333%); */
         background: linear-gradient(
         45deg,
-        #eb4d4b 16.666%, 
-        #ff7979 16.666%, 
-        #ff7979 33.333%, 
+        #ff7979 20%, 
+        #feca57 20%, 
         #feca57 33.333%, 
-        #feca57 50%, 
+        #55efc4 33.333%, 
         #55efc4 50%, 
-        #55efc4 66.666%, 
+        #74b9ff 50%, 
         #74b9ff 66.666%, 
-        #74b9ff 83.333%, 
-        #6c5ce7 83.333%);
+        #6c5ce7 66.666%, 
+        #6c5ce7 83.333%, 
+        #574b90 83.333%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
