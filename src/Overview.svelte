@@ -7,7 +7,10 @@
 </script>
 <div class="background">
   <div class="content">
-    <h1>Tamara Snyder</h1>
+    <h1>
+      <span class="wpr">Tamara</span>
+      <span class="wpr">Snyder</span>
+    </h1>
     <div class="typing-container">
       <h2>Software Developer</h2>
     </div>
@@ -62,7 +65,8 @@
     text-align: center;
     margin: 5vh auto;
     letter-spacing: .1em;
-    background-color: #CA4246;
+    max-width: 47vw;
+    /* background-color: #6c5ce7; */
   
   /* Create the gradient. */
    /* background: linear-gradient(
@@ -77,7 +81,8 @@
         #476098 66.666%, 
         #476098 83.333%, 
         #A7489B 83.333%); */
-        background: linear-gradient(
+
+        /* background: linear-gradient(
         45deg,
         #ff7979 20%, 
         #feca57 20%, 
@@ -91,7 +96,31 @@
         #574b90 83.333%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+
+
+    background: #CA4246;
+  background-color: #CA4246;
+  background: conic-gradient(
+    #ff7979 20%, 
+        #feca57 20%, 
+        #feca57 33.333%, 
+        #55efc4 33.333%, 
+        #55efc4 50%, 
+        #74b9ff 50%, 
+        #74b9ff 66.666%, 
+        #6c5ce7 66.666%, 
+        #6c5ce7 83.333%, 
+        #574b90 83.333%);
+  
+  /* Set thee background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
   }
 
   h2 {
