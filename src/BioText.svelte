@@ -1,7 +1,7 @@
 <div class="background">
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
-    Hi, I'm Tamara! I'm a software developer with a passion for learning new things and building apps that bring joy to my users.
+    Hi, I'm Tamara! I'm a software developer with a passion for learning new things and building apps that bring joy to my users. I love building beautiful native iOS apps and working on web projects.
     I am currently volunteering as a full-stack developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
   </p>
 </div>
@@ -18,6 +18,25 @@
     width: 90%;
     margin: auto;
     line-height: 2.5rem;
+    /* background: linear-gradient(to top, #ff5d1d 0%, #842dee 100%); */
+    background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   img {
