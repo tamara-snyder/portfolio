@@ -2,7 +2,7 @@
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
     Hi, I'm Tamara! I'm a software developer with a passion for learning new things and building apps that bring joy to my users. I love building beautiful native iOS apps and working on web projects.
-    I am currently volunteering as a full-stack developer for <a href="https://www.hackforla.org/" target="_blank">Hack for LA's</a> main website.
+    I am currently volunteering as a full-stack developer for the <a href="https://www.hackforla.org/" target="_blank">Hack for LA</a> website.
   </p>
 </div>
 
@@ -32,12 +32,12 @@
   }
 
   a {
-    color: #222f3e;
+    color: #5f27cd;
     text-decoration: underline;
     transition: 0.1s;
   }
 
   a:hover {
-    color: #7e8ea0;
+    color: #916dda;
   }
 </style>

@@ -6,7 +6,6 @@
 	import Contact from './Contact.svelte'
 	import Portfolio from './Portfolio.svelte'
 	import BonusAbout from './BonusAbout.svelte'
-	export let name
 </script>
 
 <Header/>
