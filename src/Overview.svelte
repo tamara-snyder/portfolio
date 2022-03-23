@@ -65,7 +65,7 @@
     margin: 5vh auto;
     letter-spacing: .1em;
     max-width: 47vw;
-    background-color: #5f27cd;
+    color: #5f27cd;
   }
 
   h2 {
