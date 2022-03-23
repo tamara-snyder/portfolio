@@ -73,9 +73,9 @@
     text-align: center;
     margin: 5vh auto;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .1em solid #feca57; /* The typwriter cursor */
+    border-right: 0.1em solid #feca57; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin: 0; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .1em; /* Adjust as needed */
     /* animation: 
     typing 3s steps(40, end),
@@ -87,6 +87,7 @@
 
   .typing-container {
     display: inline-block;
+    margin: 0 auto;
   }
 
   @keyframes typing {
