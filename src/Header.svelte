@@ -28,7 +28,7 @@
   }
 
   .nav-link {
-    font-size: 1.3rem;
+    font-size: 2vmax;
     color: #303030;
     transition: 0.2s;
   }

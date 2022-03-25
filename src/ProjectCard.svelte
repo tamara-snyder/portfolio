@@ -7,11 +7,14 @@
   <a href={project.link}>
     <img src={project.imageSource} alt={project.imageAlt}>
   </a>
-  <p>{project.description}</p>
+  <div class="project-info">
+    <p>{project.description}</p>
+    <p><strong>Technologies:</strong> {project.technologies}</p>
+  </div>
 </div>
 
 <style>
-  div {
+  .project {
     padding: 10px 30px;
     margin: 0 auto 10vh auto;
     border-radius: 10px;
@@ -20,7 +23,7 @@
     transition: 0.3s;
     position: relative;
     flex: 0 1 25%;
-    max-height: 80vh;
+    max-height: 100vh;
   }
 
   div:hover {
@@ -28,12 +31,14 @@
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 3vh;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
   }
 
   img {
     max-width: 290px;
-    height: 55%;
+    height: 45%;
     transition: 0.3s;
     border-radius: 15px;
   }
@@ -42,7 +47,9 @@
     transform: scale(1.03);
   }
 
-  p {
-    padding: 25px;
+  .project-info {
+    margin-top: 25px;
+    border-top: solid 1px #ddd;
+    line-height: 1.5em;
   }
 </style>
