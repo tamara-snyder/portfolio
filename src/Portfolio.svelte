@@ -3,19 +3,11 @@
 
   let projects = [
     {
-      title: 'Mastermind',
-      link: '',
-      imageSource: 'images/mastermind_screenshot.png',
-      imageAlt: 'Screenshot of Mastermind app for iPhone',
-      description: 'A modern rendition of the classic color-based guessing game. The app picks a secret four-color code, which the user has 12 turns to guess correctly. In creating this, I learned a lot about @ObservableObject, @EnvironmentObject, and @StateObject, and MVVM architecture.',
-      technologies: 'Swift, SwiftUI'
-    },
-    {
       title: 'Sweather',
       link: '',
       imageSource: 'images/sweather_screenshot.png',
       imageAlt: 'Screenshot of Sweather app for iPhone',
-      description: 'A simple weather app. With user permission, it fetches the local weather for the user\'s current location. There is also an option for the user to search for a specific city or zip code. A table view is displayed with weather forecasts in time intervals of three hours for the next five days. Uses MVC architecture.',
+      description: 'A simple weather app. With user permission, it fetches the local weather for the user\'s current location. There is also an option for the user to search for a specific city or zip code. A table view is displayed with weather forecasts in three-hour time intervals for the next five days. Uses MVC architecture.',
       technologies: 'Swift, UIKit, CoreLocation, OpenWeatherMap API'
     },
     {
