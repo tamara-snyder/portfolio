@@ -7,7 +7,7 @@
       link: 'https://github.com/tamara-snyder/Sweather',
       imageSource: 'images/sweather_screenshot.png',
       imageAlt: 'Screenshot of Sweather app for iPhone',
-      description: 'A simple weather app. With user permission, it fetches the local weather for the user\'s current location. There is also an option for the user to search for a specific city or zip code. A table view is displayed with weather forecasts in three-hour time intervals for the next five days. Uses MVC architecture. The background art was created by <a href="freepik.com">freepik.com</a>.',
+      description: 'A simple weather app. With user permission, it fetches the local weather for the user\'s current location. There is also an option for the user to search for a specific city or zip code. A table view displays weather forecasts in three-hour time intervals for the next five days. Uses MVC architecture. Background art courtesy of <a href="freepik.com">freepik.com</a>.',
       technologies: 'Swift, UIKit, CoreLocation, OpenWeatherMap API',
     },
     {

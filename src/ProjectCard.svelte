@@ -23,7 +23,7 @@
     transition: 0.3s;
     position: relative;
     flex: 0 1 25%;
-    max-height: 100vh;
+    max-height: 110vh;
   }
 
   div:hover {

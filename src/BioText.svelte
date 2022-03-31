@@ -1,7 +1,7 @@
 <div class="background">
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
-    Hi, I'm Tamara! I am a budding iOS developer with a passion for learning new things and building beautiful and functional mobile apps. I love programming in Swift and creating native iOS apps, as well as working on web projects.
+    Hi, I'm Tamara! I am a budding iOS/web developer with a passion for learning new things and building beautiful and functional apps.
   </p>
   <p>
     I come from a musical background as a classical bassoonist, and I would like to think that I can even <a href="https://www.youtube.com/watch?v=ZC7UmLJI9Uk" target="_blank">play two instruments at the same time</a>.
