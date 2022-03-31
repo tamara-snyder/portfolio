@@ -4,11 +4,11 @@
 
 <div class='project'>
   <h3>{project.title}</h3>
-  <a href={project.link}>
+  <a href={project.link} target="_blank">
     <img src={project.imageSource} alt={project.imageAlt}>
   </a>
   <div class="project-info">
-    <p>{project.description}</p>
+    <p>{@html project.description}</p>
     <p><strong>Technologies:</strong> {project.technologies}</p>
   </div>
 </div>

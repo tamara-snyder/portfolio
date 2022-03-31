@@ -2,7 +2,7 @@
   <ul class="nav-list">
     <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
     <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    <li class="nav-item"><a href="./snyder_resume.pdf" class="nav-link">Resume</a></li>
   </ul>
 </nav>
 
