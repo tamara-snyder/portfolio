@@ -12,7 +12,7 @@
       <span class="wpr">Snyder</span>
     </h1>
     <div class="typing-container">
-      <h2>Software Developer</h2>
+      <h2>iOS Developer</h2>
     </div>
 
     <nav>
