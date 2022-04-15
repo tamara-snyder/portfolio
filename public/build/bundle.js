@@ -1885,10 +1885,10 @@ var app = (function () {
     			}
 
     			attr_dev(h1, "class", "svelte-1ruoinu");
-    			add_location(h1, file$1, 47, 0, 2508);
+    			add_location(h1, file$1, 47, 0, 2505);
     			attr_dev(div, "id", "portfolio");
     			attr_dev(div, "class", "svelte-1ruoinu");
-    			add_location(div, file$1, 48, 0, 2527);
+    			add_location(div, file$1, 48, 0, 2524);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1980,7 +1980,7 @@ var app = (function () {
     			link: 'https://github.com/tamara-snyder/Sweather',
     			imageSource: 'images/sweather_screenshot.png',
     			imageAlt: 'Screenshot of Sweather app for iPhone',
-    			description: 'A simple weather app. With user permission, it fetches the local weather for the user\'s current location. There is also an option for the user to search for a specific city or zip code. A table view displays weather forecasts in three-hour time intervals for the next five days. Uses MVC architecture. Background art courtesy of <a href="freepik.com">freepik.com</a>.',
+    			description: 'A simple weather app. With user permission, it fetches the local weather for the user\'s current location. There is also an option for the user to search for a specific city or zip code. A table view displays weather forecasts in three-hour time intervals for the next five days. Uses the MVC design pattern. Background art by <a href="freepik.com">freepik.com</a>.',
     			technologies: 'Swift, UIKit, CoreLocation, OpenWeatherMap API'
     		},
     		{
