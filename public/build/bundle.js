@@ -920,8 +920,10 @@ var app = (function () {
     	let t6;
     	let p2;
     	let t7;
-    	let a1;
+    	let strike;
     	let t9;
+    	let a1;
+    	let t11;
 
     	const block = {
     		c: function create() {
@@ -929,37 +931,41 @@ var app = (function () {
     			img = element("img");
     			t0 = space();
     			p0 = element("p");
-    			p0.textContent = "Hi, I'm Tamara! I am a budding iOS/web developer with a passion for learning new things and building beautiful and functional apps.";
+    			p0.textContent = "Hi, I'm Tamara! I am an iOS developer with a passion for learning new things and building beautiful and functional apps.";
     			t2 = space();
     			p1 = element("p");
-    			t3 = text("I come from a musical background as a classical bassoonist, and I would like to think that I can even ");
+    			t3 = text("I come from a musical background — I received my Master of Music degree in bassoon performance from Yale in May of 2021, and I would like to think that I can even ");
     			a0 = element("a");
     			a0.textContent = "play two instruments at the same time";
     			t5 = text(".");
     			t6 = space();
     			p2 = element("p");
-    			t7 = text("In my spare time, you can find me volunteering as a full-stack developer for the ");
+    			t7 = text("Currently, I work as a Junior iOS Developer at The Hershey Company, where I ");
+    			strike = element("strike");
+    			strike.textContent = "eat too much candy";
+    			t9 = text(" develop and maintain two internal iOS apps. In my spare time, you can find me contributing to open source projects like the ");
     			a1 = element("a");
     			a1.textContent = "Hack for LA";
-    			t9 = text(" website or riding my gravel bike everywhere I possibly can.");
+    			t11 = text(" website or riding my gravel bike everywhere I possibly can.");
     			attr_dev(img, "id", "avatar");
     			if (!src_url_equal(img.src, img_src_value = "images/snyder_pressphoto.JPG")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "svelte-1xj6f2h");
+    			attr_dev(img, "class", "svelte-1qj4aam");
     			add_location(img, file$5, 1, 2, 27);
-    			attr_dev(p0, "class", "about svelte-1xj6f2h");
+    			attr_dev(p0, "class", "about svelte-1qj4aam");
     			add_location(p0, file$5, 2, 2, 89);
     			attr_dev(a0, "href", "https://www.youtube.com/watch?v=ZC7UmLJI9Uk");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$5, 6, 106, 362);
-    			attr_dev(p1, "class", "svelte-1xj6f2h");
-    			add_location(p1, file$5, 5, 2, 252);
+    			add_location(a0, file$5, 6, 167, 412);
+    			attr_dev(p1, "class", "svelte-1qj4aam");
+    			add_location(p1, file$5, 5, 2, 241);
+    			add_location(strike, file$5, 9, 80, 618);
     			attr_dev(a1, "href", "https://www.hackforla.org/");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$5, 9, 85, 573);
-    			attr_dev(p2, "class", "svelte-1xj6f2h");
-    			add_location(p2, file$5, 8, 2, 484);
-    			attr_dev(div, "class", "background svelte-1xj6f2h");
+    			add_location(a1, file$5, 9, 240, 778);
+    			attr_dev(p2, "class", "svelte-1qj4aam");
+    			add_location(p2, file$5, 8, 2, 534);
+    			attr_dev(div, "class", "background svelte-1qj4aam");
     			add_location(div, file$5, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -978,8 +984,10 @@ var app = (function () {
     			append_dev(div, t6);
     			append_dev(div, p2);
     			append_dev(p2, t7);
-    			append_dev(p2, a1);
+    			append_dev(p2, strike);
     			append_dev(p2, t9);
+    			append_dev(p2, a1);
+    			append_dev(p2, t11);
     		},
     		p: noop,
     		i: noop,
@@ -1884,10 +1892,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "svelte-1ruoinu");
+    			attr_dev(h1, "class", "svelte-u5j5pg");
     			add_location(h1, file$1, 47, 0, 2505);
     			attr_dev(div, "id", "portfolio");
-    			attr_dev(div, "class", "svelte-1ruoinu");
+    			attr_dev(div, "class", "svelte-u5j5pg");
     			add_location(div, file$1, 48, 0, 2524);
     		},
     		l: function claim(nodes) {
