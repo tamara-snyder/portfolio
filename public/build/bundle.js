@@ -1820,7 +1820,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (50:2) {#each projects as project}
+    // (58:2) {#each projects as project}
     function create_each_block(ctx) {
     	let projectcard;
     	let current;
@@ -1857,7 +1857,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(50:2) {#each projects as project}",
+    		source: "(58:2) {#each projects as project}",
     		ctx
     	});
 
@@ -1893,10 +1893,10 @@ var app = (function () {
     			}
 
     			attr_dev(h1, "class", "svelte-u5j5pg");
-    			add_location(h1, file$1, 47, 0, 2505);
+    			add_location(h1, file$1, 55, 0, 2887);
     			attr_dev(div, "id", "portfolio");
     			attr_dev(div, "class", "svelte-u5j5pg");
-    			add_location(div, file$1, 48, 0, 2524);
+    			add_location(div, file$1, 56, 0, 2906);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1983,6 +1983,14 @@ var app = (function () {
     	validate_slots('Portfolio', slots, []);
 
     	let projects = [
+    		{
+    			title: 'Mastermind',
+    			link: 'https://github.com/tamara-snyder/Mastermind-Swift',
+    			imageSource: 'images/mastermind_screenshot.png',
+    			imageAlt: 'Screenshot of Mastermind app for iPhone',
+    			description: 'Basically Wordle, but with colors and a more cryptic feedback system. Invented before Wordle was cool.',
+    			technologies: 'Swift, SwiftUI'
+    		},
     		{
     			title: 'Sweather',
     			link: 'https://github.com/tamara-snyder/Sweather',
