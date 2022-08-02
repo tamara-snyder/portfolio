@@ -7,7 +7,7 @@
       link: 'https://github.com/tamara-snyder/Mastermind-Swift',
       imageSource: 'images/mastermind_screenshot.png',
       imageAlt: 'Screenshot of Mastermind app for iPhone',
-      description: 'Basically Wordle, but with colors and a more cryptic feedback system. Invented before Wordle was cool.',
+      description: 'Basically Wordle, but with colors instead of letters, and a more cryptic feedback system.',
       technologies: 'Swift, SwiftUI',
     },
     {
