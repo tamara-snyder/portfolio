@@ -4,10 +4,10 @@
   let projects = [
     {
       title: 'Mastermind',
-      link: 'https://github.com/tamara-snyder/Mastermind-Swift',
+      link: 'https://github.com/tamara-snyder/Mastermind',
       imageSource: 'images/mastermind_screenshot.png',
       imageAlt: 'Screenshot of Mastermind app for iPhone',
-      description: 'Basically Wordle, but with colors instead of letters, and a more cryptic feedback system.',
+      description: 'Basically Wordle, but with the objective of guessing a random sequence of colors instead of a five-letter word</a>.',
       technologies: 'Swift, SwiftUI',
     },
     {
