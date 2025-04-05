@@ -3,6 +3,14 @@
 
   let projects = [
     {
+      title: 'Mastermind',
+      link: 'https://github.com/tamara-snyder/Mastermind',
+      imageSource: 'images/mastermind_screenshot.png',
+      imageAlt: 'Screenshot of Mastermind app for iPhone',
+      description: 'Basically Wordle, but with the objective of guessing a random sequence of colors instead of a five-letter word</a>.',
+      technologies: 'Swift, SwiftUI',
+    },
+    {
       title: 'Sweather',
       link: 'https://github.com/tamara-snyder/Sweather',
       imageSource: 'images/sweather_screenshot.png',
@@ -15,7 +23,7 @@
       link: 'https://github.com/tamara-snyder/Aeropress-Timer',
       imageSource: 'images/aerotimer_screenshot.png',
       imageAlt: 'Screenshot of my custom Aeropress timer',
-      description: 'A custom Aeropress timer for brewing my morning Aeropress recipe. It runs two timers in succession with the ability to pause and resume or restart the brewing process at any time. A bell rings after the first timer to signal the next step in the brewing process.',
+      description: 'A custom Aeropress timer for brewing my morning Aeropress recipe. It runs two timers in succession with the ability to pause and resume or restart the brewing process at any time. A bell rings after the first timer to signal the next step in the process.',
       technologies: 'Swift, UIKit'
     },
     {
@@ -63,6 +71,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* align-items: stretch; */
   }
 </style>

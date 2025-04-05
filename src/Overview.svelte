@@ -1,9 +1,6 @@
 <script>
   let linkedinIcon = 'images/linkedin_icon.png'
-  let twitterIcon = 'images/twitter_icon.png'
   let githubIcon = 'images/github_icon.png'
-
-  let content = ["iOS Developer", "Web developer", "Software Enthusiast"]
 </script>
 <div class="background">
   <div class="content">
@@ -21,9 +18,6 @@
       </a>
       <a href="https://github.com/tamara-snyder" target="_blank">
         <img class="media-icon" src={githubIcon} alt="Github profile"/>
-      </a>
-      <a href="https://twitter.com/dev_tamara" target="_blank">
-        <img class="media-icon" src="{twitterIcon}" alt="Twitter profile"/>
       </a>
     </nav>
   </div>

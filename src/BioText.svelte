@@ -1,13 +1,13 @@
 <div class="background">
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
-    Hi, I'm Tamara! I am a budding iOS/web developer with a passion for learning new things and building beautiful and functional apps.
+    Hi, I'm Tamara (rhymes with Camera)! I've been an iOS developer since 2022 and I love working with the lightweight, interactive nature of mobile platforms and am always learning new things.
   </p>
   <p>
     I come from a musical background as a classical bassoonist, and I would like to think that I can even <a href="https://www.youtube.com/watch?v=ZC7UmLJI9Uk" target="_blank">play two instruments at the same time</a>.
   </p>
   <p>
-    In my spare time, you can find me volunteering as a full-stack developer for the <a href="https://www.hackforla.org/" target="_blank">Hack for LA</a> website or riding my gravel bike everywhere I possibly can.
+    Currently, I am an iOS developer at The Hershey Company, where I <strike>eat too much candy</strike> develop and maintain the company's internal iOS apps. In my spare time, you can find me running with friends, cycling, or knitting my dream sweater.
   </p>
 </div>
 
