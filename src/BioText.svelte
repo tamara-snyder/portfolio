@@ -1,7 +1,7 @@
 <div class="background">
   <img id="avatar" src="images/snyder_pressphoto.JPG" alt="">
   <p class="about">
-    Hi, I'm Tamara (rhymes with Camera)! I've been an iOS developer since 2022 and I love working with the lightweight, interactive nature of mobile platforms and am always learning new things.
+    Hi, I'm Tamara (rhymes with "camera") and I've been an iOS developer since 2022. I love working with the lightweight, interactive nature of mobile platforms and am always learning new things.
   </p>
   <p>
     I come from a musical background as a classical bassoonist, and I would like to think that I can even <a href="https://www.youtube.com/watch?v=ZC7UmLJI9Uk" target="_blank">play two instruments at the same time</a>.
