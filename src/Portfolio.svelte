@@ -62,10 +62,11 @@
 
 <style>
   h1 {
-    margin: 10vh auto 5vh auto;
-    font-size: 4rem;
-    letter-spacing: 0.3rem;
+    margin: clamp(3vh, 6vh, 8vh) auto clamp(2.5vh, 5vh, 7vh) auto;
+    font-size: clamp(3rem, 6vw, 4rem);
+    letter-spacing: clamp(0.08rem, 0.3vw, 0.3rem);
   }
+
 
   div {
     display: flex;

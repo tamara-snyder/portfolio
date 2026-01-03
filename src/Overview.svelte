@@ -54,23 +54,23 @@
   }
 
   h1 {
-    font-size: 12vmin;
+    margin: clamp(3vh, 6vh, 8vh) auto clamp(2.5vh, 5vh, 7vh) auto;
+    font-size: clamp(3rem, 6vw, 4rem);
+    letter-spacing: clamp(0.08rem, 0.3vw, 0.3rem);
     text-align: center;
-    margin: 5vh auto;
-    letter-spacing: .1em;
     max-width: 47vw;
     color: #5f27cd;
   }
 
   h2 {
-    font-size: 6vmin;
+    font-size: clamp(1.6rem, 5vmin, 3rem);
     text-align: center;
-    margin: 5vh auto;
+    margin: clamp(3vh, 5vh, 6vh) auto;
+    letter-spacing: clamp(0.05em, 0.1em, 0.15em);
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.1em solid #feca57; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
     animation:
       typing 2s steps(30, end) forwards,
       blink-caret step-end .8s infinite;
@@ -93,13 +93,13 @@
   }
 
   .media-icon {
-    width: 64px;
-    height: auto;
-    padding: 0 20px;
-    transition: 0.2s ease-in-out;
-  }
+  width: clamp(40px, 8vw, 64px);
+  height: auto;
+  padding: 0 clamp(8px, 4vw, 20px);
+  transition: 0.2s ease-in-out;
+}
 
   .media-icon:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 </style>

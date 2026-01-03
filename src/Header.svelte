@@ -27,7 +27,7 @@
   }
 
   .nav-link {
-    font-size: 3vh;
+    font-size: clamp(14px, 3vmin, 22px);
     color: #303030;
     transition: 0.2s;
   }

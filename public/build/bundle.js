@@ -479,18 +479,18 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "Portfolio";
     			attr_dev(a0, "href", "#home");
-    			attr_dev(a0, "class", "nav-link svelte-1ttexmi");
+    			attr_dev(a0, "class", "nav-link svelte-1wxn7dn");
     			add_location(a0, file$7, 2, 25, 67);
-    			attr_dev(li0, "class", "nav-item svelte-1ttexmi");
+    			attr_dev(li0, "class", "nav-item svelte-1wxn7dn");
     			add_location(li0, file$7, 2, 4, 46);
     			attr_dev(a1, "href", "#portfolio");
-    			attr_dev(a1, "class", "nav-link svelte-1ttexmi");
+    			attr_dev(a1, "class", "nav-link svelte-1wxn7dn");
     			add_location(a1, file$7, 3, 25, 139);
-    			attr_dev(li1, "class", "nav-item svelte-1ttexmi");
+    			attr_dev(li1, "class", "nav-item svelte-1wxn7dn");
     			add_location(li1, file$7, 3, 4, 118);
-    			attr_dev(ul, "class", "nav-list svelte-1ttexmi");
+    			attr_dev(ul, "class", "nav-list svelte-1wxn7dn");
     			add_location(ul, file$7, 1, 2, 20);
-    			attr_dev(nav, "class", "nav svelte-1ttexmi");
+    			attr_dev(nav, "class", "nav svelte-1wxn7dn");
     			add_location(nav, file$7, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -599,31 +599,31 @@ var app = (function () {
     			add_location(span0, file$6, 7, 6, 175);
     			attr_dev(span1, "class", "wpr");
     			add_location(span1, file$6, 8, 6, 213);
-    			attr_dev(h1, "class", "svelte-mpee3z");
+    			attr_dev(h1, "class", "svelte-1vslndl");
     			add_location(h1, file$6, 6, 4, 164);
-    			attr_dev(h2, "class", "svelte-mpee3z");
+    			attr_dev(h2, "class", "svelte-1vslndl");
     			add_location(h2, file$6, 11, 6, 296);
-    			attr_dev(div0, "class", "typing-container svelte-mpee3z");
+    			attr_dev(div0, "class", "typing-container svelte-1vslndl");
     			add_location(div0, file$6, 10, 4, 259);
-    			attr_dev(img0, "class", "media-icon svelte-mpee3z");
+    			attr_dev(img0, "class", "media-icon svelte-1vslndl");
     			if (!src_url_equal(img0.src, img0_src_value = /*linkedinIcon*/ ctx[0])) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "LinkedIn profile");
     			add_location(img0, file$6, 16, 8, 435);
     			attr_dev(a0, "href", "https://www.linkedin.com/in/tamara-snyder-a6a1391b7/");
     			attr_dev(a0, "target", "_blank");
     			add_location(a0, file$6, 15, 6, 347);
-    			attr_dev(img1, "class", "media-icon svelte-mpee3z");
+    			attr_dev(img1, "class", "media-icon svelte-1vslndl");
     			if (!src_url_equal(img1.src, img1_src_value = /*githubIcon*/ ctx[1])) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "Github profile");
     			add_location(img1, file$6, 19, 8, 588);
     			attr_dev(a1, "href", "https://github.com/tamara-snyder");
     			attr_dev(a1, "target", "_blank");
     			add_location(a1, file$6, 18, 6, 520);
-    			attr_dev(nav, "class", "svelte-mpee3z");
+    			attr_dev(nav, "class", "svelte-1vslndl");
     			add_location(nav, file$6, 14, 4, 335);
-    			attr_dev(div1, "class", "content svelte-mpee3z");
+    			attr_dev(div1, "class", "content svelte-1vslndl");
     			add_location(div1, file$6, 5, 2, 138);
-    			attr_dev(div2, "class", "background svelte-mpee3z");
+    			attr_dev(div2, "class", "background svelte-1vslndl");
     			add_location(div2, file$6, 4, 0, 111);
     		},
     		l: function claim(nodes) {
@@ -889,15 +889,13 @@ var app = (function () {
     	let t2;
     	let p1;
     	let t3;
-    	let a0;
+    	let a;
     	let t5;
-    	let a1;
-    	let t7;
-    	let t8;
+    	let t6;
     	let p2;
-    	let t9;
+    	let t7;
     	let strike;
-    	let t11;
+    	let t9;
 
     	const block = {
     		c: function create() {
@@ -905,41 +903,35 @@ var app = (function () {
     			img = element("img");
     			t0 = space();
     			p0 = element("p");
-    			p0.textContent = "Hi, I'm Tamara (rhymes with \"camera\") and I've been an iOS developer since 2022. I love working with the lightweight, interactive nature of mobile platforms and am always learning new things.";
+    			p0.textContent = "Hi, I'm Tamara (rhymes with \"camera\") and I've been an iOS developer since 2022. I love working with the interactive nature of mobile platforms and am always learning new things.";
     			t2 = space();
     			p1 = element("p");
     			t3 = text("I come from a musical background — I received my Master of Music degree in bassoon performance from Yale in May of 2021, and I would like to think that I can even ");
-    			a0 = element("a");
-    			a0.textContent = "play two instruments at the same time";
-    			t5 = text(".\n    I come from a musical background — I received my Master of Music degree in bassoon performance from Yale in May of 2021, and I would like to think that I can even ");
-    			a1 = element("a");
-    			a1.textContent = "play two instruments at the same time";
-    			t7 = text(".");
-    			t8 = space();
+    			a = element("a");
+    			a.textContent = "play two instruments at the same time";
+    			t5 = text(".");
+    			t6 = space();
     			p2 = element("p");
-    			t9 = text("Currently, I am an iOS developer at The Hershey Company, where I ");
+    			t7 = text("Most of my time as an iOS developer has been spent at The Hershey Company, where I ");
     			strike = element("strike");
-    			strike.textContent = "eat too much candy";
-    			t11 = text(" develop and maintain the company's internal iOS apps. In my spare time, you can find me running with friends, cycling, or knitting my dream sweater.");
+    			strike.textContent = "ate too much candy";
+    			t9 = text(" developed and maintained the company's retail execution iOS apps, which were built using a mix of UIKit, SwiftUI, and legacy Objective-C code. In my spare time, you can find me running, cycling, or knitting my dream sweater.");
     			attr_dev(img, "id", "avatar");
     			if (!src_url_equal(img.src, img_src_value = "images/snyder_pressphoto.JPG")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "svelte-1jexf9u");
+    			attr_dev(img, "class", "svelte-6soptr");
     			add_location(img, file$5, 1, 2, 27);
-    			attr_dev(p0, "class", "about svelte-1jexf9u");
+    			attr_dev(p0, "class", "about svelte-6soptr");
     			add_location(p0, file$5, 2, 2, 89);
-    			attr_dev(a0, "href", "https://www.youtube.com/watch?v=ZC7UmLJI9Uk");
-    			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$5, 6, 167, 483);
-    			attr_dev(a1, "href", "https://www.youtube.com/watch?v=ZC7UmLJI9Uk");
-    			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$5, 7, 167, 763);
-    			attr_dev(p1, "class", "svelte-1jexf9u");
-    			add_location(p1, file$5, 5, 2, 312);
-    			add_location(strike, file$5, 10, 69, 958);
-    			attr_dev(p2, "class", "svelte-1jexf9u");
-    			add_location(p2, file$5, 9, 2, 885);
-    			attr_dev(div, "class", "background svelte-1jexf9u");
+    			attr_dev(a, "href", "https://www.youtube.com/watch?v=ZC7UmLJI9Uk");
+    			attr_dev(a, "target", "_blank");
+    			add_location(a, file$5, 6, 167, 470);
+    			attr_dev(p1, "class", "svelte-6soptr");
+    			add_location(p1, file$5, 5, 2, 299);
+    			add_location(strike, file$5, 9, 87, 683);
+    			attr_dev(p2, "class", "svelte-6soptr");
+    			add_location(p2, file$5, 8, 2, 592);
+    			attr_dev(div, "class", "background svelte-6soptr");
     			add_location(div, file$5, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -953,15 +945,13 @@ var app = (function () {
     			append_dev(div, t2);
     			append_dev(div, p1);
     			append_dev(p1, t3);
-    			append_dev(p1, a0);
+    			append_dev(p1, a);
     			append_dev(p1, t5);
-    			append_dev(p1, a1);
-    			append_dev(p1, t7);
-    			append_dev(div, t8);
+    			append_dev(div, t6);
     			append_dev(div, p2);
-    			append_dev(p2, t9);
+    			append_dev(p2, t7);
     			append_dev(p2, strike);
-    			append_dev(p2, t11);
+    			append_dev(p2, t9);
     		},
     		p: noop,
     		i: noop,
@@ -1523,24 +1513,24 @@ var app = (function () {
     			a1.textContent = "Github";
     			t4 = space();
     			p = element("p");
-    			p.textContent = "© Tamara Snyder 2025";
-    			attr_dev(div0, "class", "content-wrap svelte-nrhryt");
+    			p.textContent = "© Tamara Snyder 2026";
+    			attr_dev(div0, "class", "content-wrap svelte-1hi4bbg");
     			add_location(div0, file$3, 4, 2, 51);
     			attr_dev(a0, "href", "https://www.linkedin.com/in/tamara-snyder-a6a1391b7/");
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-nrhryt");
+    			attr_dev(a0, "class", "svelte-1hi4bbg");
     			add_location(a0, file$3, 7, 6, 148);
     			attr_dev(a1, "href", "https://github.com/tamara-snyder");
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-nrhryt");
+    			attr_dev(a1, "class", "svelte-1hi4bbg");
     			add_location(a1, file$3, 8, 4, 244);
-    			attr_dev(div1, "class", "links-container svelte-nrhryt");
+    			attr_dev(div1, "class", "links-container svelte-1hi4bbg");
     			add_location(div1, file$3, 6, 4, 112);
     			add_location(p, file$3, 10, 4, 329);
     			attr_dev(footer, "id", "contact");
-    			attr_dev(footer, "class", "svelte-nrhryt");
+    			attr_dev(footer, "class", "svelte-1hi4bbg");
     			add_location(footer, file$3, 5, 2, 86);
-    			attr_dev(div2, "class", "page-container svelte-nrhryt");
+    			attr_dev(div2, "class", "page-container svelte-1hi4bbg");
     			add_location(div2, file$3, 3, 0, 20);
     		},
     		l: function claim(nodes) {
@@ -1646,11 +1636,11 @@ var app = (function () {
     			strong.textContent = "Technologies:";
     			t5 = space();
     			t6 = text(t6_value);
-    			attr_dev(h3, "class", "svelte-1y45w29");
+    			attr_dev(h3, "class", "svelte-91jnyd");
     			add_location(h3, file$2, 5, 2, 65);
     			if (!src_url_equal(img.src, img_src_value = /*project*/ ctx[0].imageSource)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*project*/ ctx[0].imageAlt);
-    			attr_dev(img, "class", "svelte-1y45w29");
+    			attr_dev(img, "class", "svelte-91jnyd");
     			add_location(img, file$2, 7, 4, 136);
     			attr_dev(a, "href", a_href_value = /*project*/ ctx[0].link);
     			attr_dev(a, "target", "_blank");
@@ -1658,9 +1648,9 @@ var app = (function () {
     			add_location(p0, file$2, 10, 4, 231);
     			add_location(strong, file$2, 11, 7, 273);
     			add_location(p1, file$2, 11, 4, 270);
-    			attr_dev(div0, "class", "project-info svelte-1y45w29");
+    			attr_dev(div0, "class", "project-info svelte-91jnyd");
     			add_location(div0, file$2, 9, 2, 200);
-    			attr_dev(div1, "class", "project svelte-1y45w29");
+    			attr_dev(div1, "class", "project svelte-91jnyd");
     			add_location(div1, file$2, 4, 0, 41);
     		},
     		l: function claim(nodes) {
@@ -1855,10 +1845,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(h1, "class", "svelte-u5j5pg");
+    			attr_dev(h1, "class", "svelte-qw1eb4");
     			add_location(h1, file$1, 55, 0, 2886);
     			attr_dev(div, "id", "portfolio");
-    			attr_dev(div, "class", "svelte-u5j5pg");
+    			attr_dev(div, "class", "svelte-qw1eb4");
     			add_location(div, file$1, 56, 0, 2905);
     		},
     		l: function claim(nodes) {

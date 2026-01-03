@@ -31,10 +31,11 @@
   }
 
   h3 {
-    font-size: 3vh;
-    letter-spacing: 0.1rem;
-    margin-bottom: 30px;
+    font-size: clamp(1.6rem, 3vw, 1.8rem);
+    letter-spacing: clamp(0.05rem, 0.1rem, 0.15rem);
+    margin-bottom: clamp(16px, 3vh, 30px);
   }
+
 
   img {
     max-width: 290px;

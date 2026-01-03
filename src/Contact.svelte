@@ -8,7 +8,7 @@
       <a href="https://www.linkedin.com/in/tamara-snyder-a6a1391b7/" target="_blank">LinkedIn</a>
     <a href="https://github.com/tamara-snyder" target="_blank">Github</a>
     </div>
-    <p>&copy; Tamara Snyder 2025</p>
+    <p>&copy; Tamara Snyder 2026</p>
   </footer>
 </div>
 
@@ -30,7 +30,7 @@
     height: 10vh; 
     background-color: #222f3e;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
 
